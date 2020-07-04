@@ -1,5 +1,5 @@
 interface IMailConfig {
-  driver: 'ethereal';
+  driver: 'ethereal' | 'sendgrid' | 'smtp';
 }
 
 export default {
